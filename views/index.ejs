@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/stylesheets/style.css">
+</head>
+
+<body>
+    <div id="main">
+        <img src="https://images.unsplash.com/photo-1687463221023-02f259da7d77?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <div class="form">
+            <div class="formbox login">
+                <h3>Login</h3>
+                <form action="/login" method="post">
+                    <div class="inputbox">
+                        <span class="icon"></span>
+                        <input type="text" required name="username">
+                        <label>Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <span class="icon"></span>
+                        <input type="password" required name="password">
+                        <label>Password</label>
+                    </div>
+                    <a class="forgotlink" href="#">Forgot password</a>
+                    <input class="submit" type="submit" required value="Log in">
+                    <div class="loginregister">
+                        <p>Don't have an account? <a href="/register" class="registerlink">Register</a></p>
+                    </div>
+            </div>
+        </div>
+
+
+    </div>
+    <script src="login.js"></script>
+
+</body>
+
+</html>

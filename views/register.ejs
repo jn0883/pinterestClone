@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="/stylesheets/registerstyle.css">
+</head>
+
+<body>
+    <div id="main">
+        <img src="https://images.unsplash.com/photo-1687463221023-02f259da7d77?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+        <div class="form">
+            <div class="formbox register">
+                <h3>Create a New Account</h3>
+                <form action="/register" method="post">
+                    <div class="inputbox">
+                        <input type="text" required name="username">
+                        <label>Username</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="text" required name="fullname">
+                        <label>Full Name</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="email" required name="email">
+                        <label>Email</label>
+                    </div>
+                    <div class="inputbox">                
+                        <input type="number" required name="contact">
+                        <label>Contact</label>
+                    </div>
+                    <div class="inputbox">
+                        <input type="password" required name="password">
+                        <label>Password</label>
+                    </div>
+                    <input class="submit" type="submit" required>
+                    <div class="loginregister">
+                        <p>Already have an account ? <a href="/" class="registerlink">Login</a></p>
+                    </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="login.js"></script>
+
+</body>
+
+</html>
